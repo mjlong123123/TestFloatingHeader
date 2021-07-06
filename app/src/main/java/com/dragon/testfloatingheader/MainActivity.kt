@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.list1Button.setOnClickListener { startActivity(Intent(this, List1Activity::class.java)) }
+        binding.list2Button.setOnClickListener { startActivity(Intent(this, List2Activity::class.java)) }
     }
 }

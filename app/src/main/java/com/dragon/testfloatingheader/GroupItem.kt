@@ -1,5 +1,7 @@
 package com.dragon.testfloatingheader
 
+import android.widget.Toast
+
 class GroupItem(val title:String):BaseAdapter.BaseItem(),IFloatingHeader {
 
     override val viewType: Int
